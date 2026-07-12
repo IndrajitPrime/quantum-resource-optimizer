@@ -2,7 +2,7 @@ Quantum Resource Allocation Optimizer
 
 A desktop application that uses quantum computing principles to optimize project resource allocation across tasks. Built with Python, Cirq, and Tkinter.
 
-This is a quantum-inspired optimizer, algorithms are designed using quantum computing concepts (superposition, amplitude encoding) and run on Cirq's classical simulator, not physical quantum hardware. It is not claimed to demonstrate quantum advantage over classical methods; that comparison is future work.
+Note: This is a quantum-inspired constraint-encoding experiment, not an optimizer. It uses entanglement (CNOTs) to encode compatibility constraints, skill matching, timeline fit, probabilistically, and runs on Cirq's classical simulator (no physical quantum hardware). It does not define or minimize a cost function, so it is not performing optimization in the formal sense; final allocation weighting is done via classical post-processing (bandwidth/priority scaling). A variational approach (e.g. QAOA) with an explicit cost function is the natural next step and is not yet implemented.
 
 The Problem It Solves
 
